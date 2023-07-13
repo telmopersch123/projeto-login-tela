@@ -7,6 +7,7 @@
 
     section#login{
        width: 80vw;
+       height: 300px;
     }
     div#imagem{
         background-image: url(../imagens/pexels-gustavo-russo-12794681.jpg);
@@ -22,6 +23,10 @@
         float: right;
         width: 70%;
     }
+    div#formulario > p{
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
 }
 @media screen and (min-width: 1001px){
     body{
@@ -29,6 +34,7 @@
     }
     section#login{
        width: 900px;
+       height: 300px;
     }
     div#imagem{
         background-image: url(../imagens/pexels-gustavo-russo-12794681.jpg);
@@ -37,11 +43,15 @@
         background-size: cover;
         width: 50%;
         height: 100%;
-        border-radius: 20px 0px 0px 20px;
-        float: left;
+        border-radius: 0px 20px 20px 0px;
+        float: right;
     }
     div#formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
+    div#formulario > p{
+        font-size: 1em;
+        margin-bottom: 10px;
     }
 }
